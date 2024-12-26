@@ -1,0 +1,20 @@
+15 16 17 18
+=> Learning similarity loss with feature augmentation using CE loss for PGD [Positive Term]
+=> Announcement: Learning similarity, which causes mis-classifier
+-> [Learning CE if the original is wrong, learning similarity if the aggressor is wrong, KD if the attack fails]
+
+
+16: img augmentation using tuned txt model
+17: Tune the augmented one for img model => [CE if wrong, similarity if attack is wrong, KD if all is right]
+18: View Img Performance => ck performance [ck]
+
+
+----
+19: txt augmentation using tuned img model
+20: txt model tuning again (10 epoch)
+21: fix loss function
+22: fix number of repetitions [epoch per collaboration]
+23: Experiment confirmed
+24: Preparing for the presentation [with performance]
+25: Announcement
+----
